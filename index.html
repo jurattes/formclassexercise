@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Practice Form</h1>
+    <form method = "post" action>
+        <fieldset>
+            <legend> Information </legend>
+            <label for = "FirstName"> Enter your first name </label>
+            <input id = "FirstName" name = "FirstName" type = "text">
+            <label for = "SecondName"> Enter your second name </label>
+            <input id = "SecondName" name = "SecondName" type = "text">
+            <label for = "GradeSchool"> Enter your grade school </label>
+            <input id = "GradeSchool" name = "GradeSchool" type = "text">
+        </fieldset>
+        <fieldset>
+            <legend> Type </legend>
+            <input id = "male" name = "male" type = "radio">
+            <label for = "male"> Male </label>
+            <input id = "female" name = "female" type = "radio">
+            <label for = "female"> Female </label>
+        </fieldset>
+        <fieldset>
+            <select>
+                <optgroup label = "1st year">
+                    <option> LI 1.1 </option>
+                </optgroup>
+                <optgroup label = "2nd year">
+                    <option> DMW 2.1 </option>
+                    <option> DSI 2.1 </option>
+                </optgroup>
+                <optgroup label = "3rd year">
+                    <option> DMW 3.1 </option>
+                    <option> DSI 3.1 </option>
+                    <option> RSI 3.1 </option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </form>
+
+    <h1> Exercise Form </h1>
+    <form method = "post" action>
+        <fieldset>
+            <legend> Personal Information </legend>
+            <label for = "username"> Username: </label>
+            <input id = "username" name = "username" type = "text"> <br>
+            <label for = "password"> Password: </label>
+            <input id = "password" name = "password" type = "text"> <br>
+            <input id = "male" name = "male" type = "radio">
+            <label for = "male"> Male </label>
+            <input id = "female" name = "female" type = "radio">
+            <label for = "female"> Female </label>
+        </fieldset>
+        <fieldset>
+            <legend> Hobbies </legend>
+            <label for = "reading"> Reading: </label>
+            <input id = "reading" name = "reading" type = "checkbox">
+            <label for = "swimming"> Swimming: </label>
+            <input id = "swimming" name = "swimming" type = "checkbox">
+        </fieldset>
+        <fieldset>
+            <legend> Country </legend>
+            <select>
+                <option> USA </option>
+                <option> Canada </option>
+                <option> Europe </option>
+            </select>
+        </fieldset>
+        <input type = "submit">
+    </form>
+
+    <h1> Contact Us </h1>
+    <form method = "post" action>
+            <label for = "name"> Name: </label>
+            <input id = "name" name = "name" type = "text"> <br>
+            <label for = "email"> Email: </label>
+            <input id = "email" name = "email" type = "text"> <br>
+            <label for = "subject"> Subject: </label>
+            <select>
+                <option> General Inquiry </option>
+                <option> Technical Support </option>
+                <option> Feedback </option>
+            </select> <br>
+            <label for = "message"> Message*: </label>
+            <textarea name = "message" rows = "4" required></textarea> <br> 
+            <input type = "submit">
+    </form>
+    <h1> Reservation form </h1>
+    <form>
+        <label for = "fullname"> Full name*: </label> <br>
+        <input id = "fullname" name = "fullname" type = "text" required placeholder = "FirstName LastName"> <br>
+        <label for = "emailaddress"> Email address*: </label> <br>
+        <input id = "emailaddress" name = "emailaddress" type = "text" required placeholder = "EMAIL_ADDRESS"> <br>
+        <label for = "package"> Select tour package*: </label> <br>
+        <select>
+            <option> Goa </option>
+            <option> I don't know what else to add here </option>
+            <option> Test </option>
+        </select> <br>
+        <label for = "date"> Arrival Date*: </label> <br>
+        <input id = "date" name = "date" type = "text" required placeholder = "M/D/Y"> <br>
+        <label for = "persons"> Arrival Date*: </label> <br>
+        <input id = "persons" name = "persons" type = "text" required placeholder = "UNKNOWN_TYPE"> <br>
+        <label for = "avail"> What would you want to avail?* </label> <br>
+        <label for = "boarding"> Boarding: </label>
+        <input id = "boarding" name = "boarding" type = "checkbox" required>  <br>
+        <label for = "fooding"> Fooding: </label>
+        <input id = "fooding" name = "fooding" type = "checkbox" required> <br>
+        <label for = "sightseeing"> Sight seeing: </label>
+        <input id = "sightseeing" name = "sightseeing" type = "checkbox" required> <br>
+        <label for = "discount"> Discount Coupon Code: </label> <br>
+        <input id = "discount" name = "discount" type = "text" placeholder = "UNKNOWN_TYPE"> <br>
+        <label for = "terms"> Terms and conditions: </label> <br>
+        <input id = "agree" name = "disagree" type = "radio" required>
+        <label for = "agree"> I agree </label>
+        <input id = "disagree" name = "disagree" type = "radio" required>
+        <label for = "disagree"> I disagree </label> <br> 
+        <input type = "submit" value = "Complete Reservation">
+        <input type = "color" id = "colorpicker" value = "#FF0000">
+    </form>
+</body>
+</html>
